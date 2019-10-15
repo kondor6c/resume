@@ -6,13 +6,31 @@ env:
   NODE_TLS_REJECT_UNAUTHORIZED: 0
 
 jobs:
-  build:
-    name: main
-    # This job runs on Linux
+  jsonResume:
+    name: resume-json
     runs-on: ubuntu-latest
     strategy:
       matrix:
        themes: [flat,modern,elegant,classy,kendall,kwan,slick,spartan]
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: install prereqs
+        run: |
+          apt -y install nodejs npm 
+          npm install --unsafe-perm=true --allow-root -g resume-cli 
+      - name: install pdf deps
+        run: |
+          resume export --theme ${{ matrix.themes }} --format pdf
+  hackMyResume:
+    name: hackMyResume
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
        hackmyresumeThemes: [minimist,modern,compact,positive,orbit,a11y,elegant,kendall,eloquent,classy,slick,crisp,boilerplate]
     steps:
       - uses: actions/checkout@v1
@@ -21,19 +39,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - name: install prereqs
+        run: |
+          apt -y install nodejs npm xvfb libfontconfig wkhtmltopdf
+          npm install -g hackmyresume 
       - name: install pdf deps
-        run: apt install nodejs npm xvfb libfontconfig wkhtmltopdf
-      - run: npm install --unsafe-perm=true --allow-root -g resume-cli hackmyresume 
-      - name: install external themes - hack my resume
-        run: npm install -g jsonresume-theme-${{ t }}
-        with:
-          t: ${{ matrix.hackmyresumeThemes }} 
-      - name: iterate through formats and styles
-        run: resume export --theme ${{ theme }} --format pdf
-        with:
-          theme: ${{ matrix.themes }}
-      - name: hack my resume
-        run: hackmyresume build resume.json to out/resume.all -t node_modules/jsonresume-theme-${{ t }}
-        with:
-          t: ${{ matrix.hackmyresumeThemes }} 
-      - run: echo The time was ${{ steps.hello.outputs.time }}
+        run: |
+          npm install -g jsonresume-theme-${{ matrix.hackmyresumeThemes }}
+          hackmyresume build resume.json to out/resume.all -t node_modules/jsonresume-theme-${{ matrix.hackmyresumeThemes }} 

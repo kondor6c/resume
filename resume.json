@@ -198,33 +198,32 @@
     "name": "Linux",
     "level": "expert",
     "keywords": [
-      "bash and coreutils",
+      "bash",
+	  "coreutils",
       "procfs",
-	  "performance analysis",
-	  "Enterprise Linux",
-	  "Debian-like"
+	  "Linux"
     ]},
 	{
     "name": "Programming Languages",
     "level": "competent",
     "keywords": [
-      "Go Standard Library",
-      "Python Standard Library"
+      "Go",
+      "Python"
     ]},
 	{
     "name": "Web and Cloud Technologies",
     "level": "competent",
     "keywords": [
-      "Nginx and Modsec",
+      "Nginx",
       "Apache",
 	  "HAProxy",
-	  "AWS proprietary services"
+	  "AWS"
     ]},
 	{
     "name": "Devops and modern Operations",
     "level": "advanced",
     "keywords": [
-      "git enabled CI workflows",
+      "CI",
       "Packer",
 	  "ansible",
 	  "Terraform",
