@@ -1,0 +1,259 @@
+{
+  "basics": {
+    "name": "Kevin Faulkner",
+    "label": "Computer Systems Engineer",
+    "picture": "",
+    "email": "kondor6c@lazytree.us",
+    "phone": "(480) 440-6353",
+    "website": "https://lazytree.us",
+    "summary": "I am a dedicated devops engineer who utilizes combined experiences from my military and technology background to lead, innovate, learn, and teach others.",
+    "location": {
+      "address": "151 Scenic Way",
+      "postalCode": "27360",
+      "city": "Thomasville",
+      "countryCode": "US",
+      "region": "NC"
+    },
+    "profiles": [{
+      "network": "github",
+      "username": "kondor6c",
+      "url": "https://github.com/kondor6c"
+    },
+	{
+      "network": "Hacker News",
+      "username": "kondor6c",
+      "url": "https://news.ycombinator.com/kondor6c"
+    },
+	{
+      "network": "keybase",
+      "username": "kondor6c",
+      "url": "https://keybase.io/kondor6c"
+    }]
+  },
+  "work": [
+  {
+    "company": "Early Warning Services",
+    "position": "Senior Devops Engineer",
+    "website": "https://earlywarning.com",
+    "startDate": "2018-04-06",
+    "endDate": "undefined",
+    "summary": "Remotely supporting the Zelle bank to bank payment system in AWS",
+    "highlights": [
+	  "Sustaining an environment that is almost entirely infrastructure as code with changes done through Terraform and controlled by git",
+	  "Multiple spring boot applications all in a secure environment with TLS everywhere (often two-way)",
+	  "Team expert on containerization tech, rewriting builds and deployment methods",
+	  "Wrote Python and Go scripts used in production"
+    ]},
+  {
+    "company": "Inmar",
+    "position": "Senior Site Reliability Engineer",
+    "website": "https://inmar.com",
+    "startDate": "2014-10-06",
+    "endDate": "2018-03-02",
+    "summary": "35k requests per minute Python and Node production applications in AWS",
+    "highlights": [
+      "Worked on the “devops” team to automate new applications and deploy them to AWS",
+	  "Worked closely with application developers to troubleshoot issues with the platform, automate and deploy new applications",
+	  "Responded to client/customer issues without hesitating to dive into a packet capture to diagnose any issues",
+	  "Supported Ubuntu and CentOS varying from rails applications, NodeJS and Django (uwsgi) applications"
+    ]
+  },
+  {
+    "company": "iCrossing",
+    "position": "Sr Systems Operations Engineer",
+    "website": "https://icrossing.com",
+    "startDate": "2013-06-03",
+    "endDate": "2014-10-01",
+    "summary": "Lean team heavily utilizing open source tech to maximize efficiency",
+    "highlights": [
+      "embraced devops methods when working with AWS, VMWare and physical machines",
+	  "Wrote scripts to help integrate these systems with the workflow mostly in git",
+	  "maintained, expanded and upgraded Hadoop systems",
+	  "Majority of the applications were Tomcat Java apps with MySQL as the primary database"
+    ]},
+  {
+    "company": "Apollo Group - Global",
+    "position": "Senior Systems Engineer",
+    "website": "https://www.apollo.edu/professional-development/global-learning.html",
+    "startDate": "2012-07-01",
+    "endDate": "2013-06-01",
+    "summary": "Sole Linux engineer for Global education network (Mexico, UK, Chile, US)",
+    "highlights": [
+      "Solely responsible for 500+ VMware ESXi and physical Linux/UNIX machines, and many NFS shares mounted from the Netapp (mode 7)",
+	  "Created builds from the development teams requirements for applications or Oracle database",
+	  "Worked with development teams to identify bottlenecks and issues in systems and web applications and implemented solutions to identified problems",
+	  "Evaluated and implemented a monitoring solutions",
+	  "Developed scripts and automation tools for new images, began to bootstrap devops program"
+    ]},
+  {
+    "company": "Apollo Group",
+    "position": "Software engineer II",
+    "website": "https://www.apollo.edu/",
+    "startDate": "2011-04-25",
+    "endDate": "2012-07-01",
+    "summary": "part of a movement to support production applications and work with developers (site reliability roots)",
+    "highlights": [
+	  "Production applications most JBOSS 4 & 5, but ranging from Orion, Tomcat, Glassfish, and Resin also including ASP.net applications",
+	  "Worked across the three tier architecture to fully troubleshoot undocumented work",
+	  "Utilized system tools such as sysstat and strace when systems breached their thresholds",
+	  "Deployed tools such as Cacti and New Relic (only available on Java at the time) to gather performance details and form conclusions as to the nature that lead to SLA",
+	  "On call with escalations requiring a fulfillment time of under fifteen minutes"
+    ]},
+  {
+    "company": "Nighthawk Radiology",
+    "position": "Systems Technician II (Lead)",
+    "website": "https://www.sec.gov/Archives/edgar/data/1292470/000119312510254400/dex991.htm",
+    "startDate": "2010-09-30",
+    "endDate": "2011-04-25",
+    "summary": "secure transmission of DICOM images to radiologists around the world using Linux machines",
+    "highlights": [
+	  "Worked with hospitals to troubleshoot VPN’s and Diagnostic imaging machines communicating with the DICOM/HL7 protocols",
+	  "Supported all systems that sent and most that received images were Linux",
+	  "Managed Linux systems to transfer images through hospitals with Cisco VPN’s (on ASA 5520)"
+    ]},
+  {
+    "company": "US Army",
+    "position": "Assistant Convoy Commander (NCO)",
+    "website": "",
+    "startDate": "2008-06-04",
+    "endDate": "2009-07-22",
+    "summary": "Involuntary reserve recall (IRR)",
+    "highlights": [
+      "Leadership",
+	  "character growth"
+    ]
+  },
+  {
+    "company": "eboCom LLC",
+    "position": "Systems Administrator",
+    "website": "https://ebocom.com",
+    "startDate": "2008-02-01",
+    "endDate": "2008-06-04",
+    "summary": "Credit Card processing company where we focused on security, departed early due to Army Activation",
+    "highlights": [
+      "Performed tape backups to be taken off site as part of a disaster recovery plan",
+	  "Participated in PCI audits",
+	  "Built physical and virtual servers with scripts and CFEngine",
+	  "Ran nmap scans and nessus and acted on vulnerable items"
+    ]},
+  {
+    "company": "Choice Education and Development",
+    "position": "Linux Technician",
+    "website": "http://edkey.org",
+    "startDate": "2007-06-01",
+    "endDate": "2008-02-01",
+    "summary": "",
+    "highlights": [
+      "Assisted in administering 1500 node Linux based Charter school",
+	  "Maintained self hosted from PHP moodle web applications, BIND DNS, to asterisk PBX phone systems",
+	  "Managed Postfix and dovecot as the primary mail server",
+	  "Utilized Linux to drive costs down within the organization"
+    ]},
+  {
+    "company": "US Army - C co 3/505th PIR ",
+    "position": "Machine Gun team leader",
+    "website": "",
+    "startDate": "2003-10-14",
+    "endDate": "2006-10-14",
+    "summary": "",
+    "highlights": [
+      "Leadership",
+	  "character growth"
+    ]}
+  ],
+  "volunteer": [],
+  "education": [{
+    "institution": "Mesa Community College",
+    "area": "Computer Engineering",
+    "studyType": "Incomplete",
+    "startDate": "2009-08-14",
+    "endDate": "2010-10-15",
+    "gpa": "3.0",
+    "courses": [
+      "Digital Circuit Design",
+	  "Intro to Computer Science",
+	  "Trigonometry"
+    ]
+  }],
+  "awards": [{
+    "title": "Expert Infantrymans Badge",
+    "date": "2005-05-01",
+    "awarder": "US Army",
+    "summary": "Physical fitness and weapons competency test: https://en.wikipedia.org/wiki/Expert_Infantryman_Badge"
+  },
+  {
+    "title": "Airborne",
+    "date": "2004-04-15",
+    "awarder": "US Army",
+    "summary": "Static Line military aircraft jumps"
+  }],
+  "publications": [{
+    "name": "Blog",
+    "publisher": "Self",
+    "releaseDate": "2015-06-01",
+    "website": "https://lazytree.us",
+    "summary": "Self published blog with various experiences and notes"
+  }],
+  "skills": [{
+    "name": "Linux",
+    "level": "expert",
+    "keywords": [
+      "bash and coreutils",
+      "procfs",
+	  "performance analysis",
+	  "Enterprise Linux",
+	  "Debian-like"
+    ]},
+	{
+    "name": "Programming Languages",
+    "level": "competent",
+    "keywords": [
+      "Go Standard Library",
+      "Python Standard Library"
+    ]},
+	{
+    "name": "Web and Cloud Technologies",
+    "level": "competent",
+    "keywords": [
+      "Nginx and Modsec",
+      "Apache",
+	  "HAProxy",
+	  "AWS proprietary services"
+    ]},
+	{
+    "name": "Devops and modern Operations",
+    "level": "advanced",
+    "keywords": [
+      "git enabled CI workflows",
+      "Packer",
+	  "ansible",
+	  "Terraform",
+	  "chef",
+	  "containerization"
+    ]},
+	{
+    "name": "Databases",
+    "level": "early",
+    "keywords": [
+      "MySQL",
+      "Postgres",
+	  "Cassandra",
+	  "Couchdb",
+	  "ElasticSearch",
+	  "SQLite"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Linux",
+    "keywords": [
+      "absolutely passionate about Linux",
+      "Several Gentoo machines (self hosted mail)",
+	  "Fedora based Home router and Access Point (hostapd,BIND,ISC DHCP,squid,firewalld)"
+    ]
+  }],
+  "references": []
+}
